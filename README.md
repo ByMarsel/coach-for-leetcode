@@ -86,10 +86,6 @@ Read the full [privacy policy](https://github.com/ByMarsel/coach-for-leetcode/bl
 
 The coach switches itself off on LeetCode contest pages: contest rules forbid AI help. It is a tool for learning and practice, so please keep it out of contests, interviews and assessments. See the [terms of use](https://github.com/ByMarsel/coach-for-leetcode/blob/main/TERMS.md).
 
-## 💸 What it costs
-
-The extension is free. You pay your AI provider directly for what you use. Rough guide: half an hour on a problem with a few hints and hot-cold costs about **$0.20 on Claude Sonnet** and **$0.40 on Claude Opus**, and a fraction of that on Claude Haiku or cheaper OpenRouter models.
-
 ## 🚀 Get it
 
 Coming soon to the **Chrome Web Store**. Install it, open any problem on leetcode.com, paste your API key in **Settings**, and start solving.
