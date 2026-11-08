@@ -54,7 +54,7 @@ The coach is friendly, short and to the point, and it sees your latest code, the
 - The timer starts when **you start writing code**, not when you open the problem, and runs only while the problem is on screen.
 - Limits per difficulty (15 / 30 / 45 minutes by default, all adjustable). Yellow when time is short, red with the overtime after the limit.
 - Pause, resume, or reset the timer together with the chat.
-- Every problem you get Accepted lands in **History**: time against the limit, hints taken, submissions, and whether you peeked at the solution.
+- Every problem you get Accepted lands in **History**: time against the limit, hints taken, submissions, whether you peeked at the solution, and what the AI requests for it cost. The total spent is at the top.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/screenshots/history.png" width="49%" alt="History of solved problems" />

@@ -10,7 +10,7 @@ AI Coach for LeetCode is a browser extension that helps you practise LeetCode pr
 |---|---|---|
 | Your API keys for Anthropic, OpenAI or OpenRouter | Your browser's extension storage, on your device | Only to the provider the key belongs to, with each request to that provider |
 | Problem statement, your code and language, the timer, your latest Run or Submit result, your messages to the coach | Your browser's extension storage | To the AI provider you chose, only when you ask the coach something or use hot-cold |
-| Settings, timers, chats, solved-problem history | Your browser's extension storage | Nowhere |
+| Settings, timers, chats, solved-problem history, what your AI requests cost | Your browser's extension storage | Nowhere |
 
 The extension reads the problem statement and your Run and Submit results from leetcode.com while you use the site, through your own LeetCode session. It does not send them anywhere except to your chosen AI provider as described above.
 
