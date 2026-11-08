@@ -37,7 +37,7 @@ It runs on the AI model you choose: **Claude**, **OpenAI** or any model on **Ope
 | 🏁 | **Solution debrief** | Shows up after Accepted: complexity, whether it is optimal, edge cases, similar problems to practise. |
 | 🔓 | **Show solution** | The full solution with code. Needs a second click, so no accidental peeking. |
 
-Hover over any button to see what it does. Asking for a hint again gives the same idea from a new angle; it never skips a step of the ladder on its own.
+Hover over any button to see what it does. Asking for a hint again gives the same idea from a new angle; it never skips a step of the ladder on its own. On a small screen, fold the buttons away with **Coach actions** to give the chat more room; the panel also tightens its layout on short windows.
 
 ## 🌡️ Hot-cold
 
