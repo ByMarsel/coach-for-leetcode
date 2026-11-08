@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/icon.png" width="96" alt="Coach for LeetCode icon" />
+<img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/icon.png" width="96" alt="AI Coach for LeetCode icon" />
 
-# Coach for LeetCode
+# AI Coach for LeetCode
 
 **A learning mode for LeetCode.** 🧠
 Solve the problem yourself, with a coach that nudges instead of spoiling.
@@ -17,11 +17,11 @@ Solve the problem yourself, with a coach that nudges instead of spoiling.
 
 ## ✨ What it is
 
-Coach for LeetCode puts a panel next to every problem: a timer, a ladder of hints, code review, a failing-test finder and a live **hot-cold** progress bar. It is built to make you think, not to hand you the answer.
+AI Coach for LeetCode puts a panel next to every problem: a timer, a ladder of hints, code review, a failing-test finder and a live **hot-cold** progress bar. It is built to make you think, not to hand you the answer.
 
 It runs on the AI model you choose: **Claude**, **OpenAI** or any model on **OpenRouter**, with your own API key.
 
-> Coach for LeetCode is an independent project, not affiliated with LeetCode.
+> AI Coach for LeetCode is an independent project, not affiliated with LeetCode.
 
 ## 🪜 The buttons
 

@@ -2,11 +2,11 @@
 
 Effective: 8 November 2026
 
-By installing or using Coach for LeetCode ("the extension") you agree to these terms.
+By installing or using AI Coach for LeetCode ("the extension") you agree to these terms.
 
 ## For learning only
 
-Coach for LeetCode is a study aid for practising algorithm problems. Use it to learn, not to gain an unfair advantage.
+AI Coach for LeetCode is a study aid for practising algorithm problems. Use it to learn, not to gain an unfair advantage.
 
 - Do not use it in LeetCode contests. LeetCode's contest rules forbid AI help, and the extension switches itself off on contest pages. Do not try to get around that.
 - Do not use it in coding interviews, online assessments, exams or any other setting where AI help is not allowed.
@@ -26,7 +26,7 @@ Hints, reviews, tests, progress estimates and solutions come from an AI model. T
 
 ## No affiliation
 
-Coach for LeetCode is an independent project. It is not affiliated with, endorsed by or sponsored by LeetCode, Anthropic, OpenAI or OpenRouter. All trademarks belong to their owners.
+AI Coach for LeetCode is an independent project. It is not affiliated with, endorsed by or sponsored by LeetCode, Anthropic, OpenAI or OpenRouter. All trademarks belong to their owners.
 
 ## No warranty
 

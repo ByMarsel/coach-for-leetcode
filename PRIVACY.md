@@ -2,7 +2,7 @@
 
 Effective: 8 November 2026
 
-Coach for LeetCode is a browser extension that helps you practise LeetCode problems with an AI model you choose. This policy explains what data the extension handles, where it goes, and how to delete it. In short: everything stays in your browser, except what you send to the AI provider you picked, and we run no servers that could receive your data.
+AI Coach for LeetCode is a browser extension that helps you practise LeetCode problems with an AI model you choose. This policy explains what data the extension handles, where it goes, and how to delete it. In short: everything stays in your browser, except what you send to the AI provider you picked, and we run no servers that could receive your data.
 
 ## What the extension handles
 
@@ -44,7 +44,7 @@ When you send a request, the AI provider you chose receives it and handles it un
 
 ## Children
 
-Coach for LeetCode is not directed at children under 13 and does not knowingly handle their data.
+AI Coach for LeetCode is not directed at children under 13 and does not knowingly handle their data.
 
 ## Changes
 
