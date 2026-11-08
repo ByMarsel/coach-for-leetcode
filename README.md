@@ -1,91 +1,103 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/icon.png" width="96" alt="Coach for LeetCode icon" />
+
 # Coach for LeetCode
 
-A learning mode for LeetCode. Coach for LeetCode adds a panel to every problem page with a timer, a ladder of hints, code review and a live "hot-cold" progress bar, so you solve the problem yourself and understand why the solution works.
+**A learning mode for LeetCode.** 🧠
+Solve the problem yourself, with a coach that nudges instead of spoiling.
 
-It uses an AI model of your choice: Claude from Anthropic, OpenAI models, or any model on OpenRouter, with your own API key.
+![Chrome Web Store: coming soon](https://img.shields.io/badge/Chrome%20Web%20Store-coming%20soon-4285F4?logo=googlechrome&logoColor=white)
+![Languages: 6](https://img.shields.io/badge/languages-6-34c77b)
+![Bring your own key](https://img.shields.io/badge/AI-Claude%20%C2%B7%20OpenAI%20%C2%B7%20OpenRouter-f5b83d)
 
-Coach for LeetCode is an independent project. It is not affiliated with, endorsed by or sponsored by LeetCode.
+<img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/screenshots/panel-light.png" alt="The coach panel next to a LeetCode problem" />
 
-## Features
+</div>
 
-### A coach next to the problem
+## ✨ What it is
 
-The panel opens on the right of any problem page (`leetcode.com/problems/…`), styled like LeetCode and following its light or dark theme. Collapse it with **›**, bring it back with the **Coach** tab on the right edge or the extension icon, and drag its left edge to resize it. The panel remembers its width and whether it is open.
+Coach for LeetCode puts a panel next to every problem: a timer, a ladder of hints, code review, a failing-test finder and a live **hot-cold** progress bar. It is built to make you think, not to hand you the answer.
 
-With every request the coach sees the problem statement, your current code and language, the timer, and your latest Run or Submit result (passed tests, the failing input, expected and actual output, the error message), so its answers are about the code you have right now.
+It runs on the AI model you choose: **Claude**, **OpenAI** or any model on **OpenRouter**, with your own API key.
 
-### Buttons
+> Coach for LeetCode is an independent project, not affiliated with LeetCode.
 
-| Button | What you get |
-|---|---|
-| Explain problem | What the problem asks, in plain words, with the first example walked through. If the statement is in another language, a translation first. No hints about the solution. |
-| Guiding question | One question that nudges you towards the key observation. The gentlest hint. |
-| Hint | The key idea or pattern and why it fits here. No code, no steps. |
-| Plan | A step-by-step plan in words or pseudocode, with the target complexity. No code. |
-| Code review | Bugs, missed edge cases and the complexity of your current code. It points to the problem and does not rewrite your code. |
-| Find a failing test | One valid test your current code fails, ready to paste into LeetCode's Testcase panel, with the expected output and what it targets. |
-| Explain failure | Appears after a failed Run or Submit: why that test fails, without the fix. |
-| Solution debrief | Appears after Accepted: complexity, whether the solution is optimal, edge cases to remember, similar problems to practise. |
-| Show solution | The full solution with code. It needs a second click, so you do not open it by accident. |
+## 🪜 The buttons
 
-Hover over any button to see what it does. Repeating a hint gives the same idea from another angle; it never jumps to the next level on its own.
+| | Button | What you get |
+|---|---|---|
+| 📖 | **Explain problem** | The task in plain words, with the first example walked through. A translation first if the statement is in another language. Zero spoilers. |
+| 🤔 | **Guiding question** | One question that points you at the key observation. The gentlest nudge. |
+| 💡 | **Hint** | The key idea and why it fits. No code, no steps. |
+| 🗺️ | **Plan** | A step-by-step plan in words or pseudocode, with the target complexity. Still no code. |
+| 🔍 | **Code review** | Bugs, missed edge cases and complexity of the code you have right now. It points, it does not rewrite. |
+| 🧪 | **Find a failing test** | One valid input your code fails, ready to paste into Testcase, with the expected output. |
+| 🩺 | **Explain failure** | Shows up after a failed Run or Submit: why that test fails, without the fix. |
+| 🏁 | **Solution debrief** | Shows up after Accepted: complexity, whether it is optimal, edge cases, similar problems to practise. |
+| 🔓 | **Show solution** | The full solution with code. Needs a second click, so no accidental peeking. |
 
-### Chat
+Hover over any button to see what it does. Asking for a hint again gives the same idea from a new angle; it never skips a step of the ladder on its own.
 
-Type an idea or a question below the buttons. The coach tells you whether the idea works and, if not, the shortest input it breaks on, without giving away what would work instead. Ask explicitly when you want a hint or the solution. Code blocks in answers have a **Copy** button. **New chat** clears the conversation for the problem; the timer keeps going.
+## 🌡️ Hot-cold
 
-### Hot-cold
+Click the thermometer under the timer and a bar shows, while you code, how close you are to a working solution: red when you are heading the wrong way, green when you are almost there. Hover over it for a short, spoiler-free note. It refreshes a few seconds after you stop typing.
 
-Click the thermometer under the timer to see, while you code, how close you are to a working solution. A bar fills from red to green; hover over it for a short note that never spoils the answer. It updates a few seconds after you stop typing, and every half minute while you keep typing. The first time you switch it on for a problem it needs a moment to get ready.
+## 💬 Talk it through
 
-### Timer
+Type your idea into the chat. The coach tells you honestly whether it works, and if it does not, shows the shortest input it breaks on, without telling you what would work instead. Want a hint or the solution? Just ask for it. Code in answers comes with a **Copy** button.
 
-The timer starts when you start writing code, not when you open the problem, and runs only while the problem tab is on screen. Default limits are 15, 30 and 45 minutes for Easy, Medium and Hard, and you can change them. The timer turns yellow when a fifth of the time is left and red with the overtime once the limit passes. Pause and resume it, or reset the timer together with the chat (two clicks). It keeps running while the panel is collapsed.
+The coach is friendly, short and to the point, and it sees your latest code, the timer and your last Run or Submit result with every message.
 
-### History
+## ⏱️ Timer and 📈 history
 
-Every problem you get Accepted on Submit lands in **History**: time against the limit, hints taken, submissions, and whether you looked at the solution or used hot-cold. The summary shows how many problems you solved within the limit and how many hints you take on average.
+- The timer starts when **you start writing code**, not when you open the problem, and runs only while the problem is on screen.
+- Limits per difficulty (15 / 30 / 45 minutes by default, all adjustable). Yellow when time is short, red with the overtime after the limit.
+- Pause, resume, or reset the timer together with the chat.
+- Every problem you get Accepted lands in **History**: time against the limit, hints taken, submissions, and whether you peeked at the solution.
 
-### Languages
+<div align="center">
+<img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/screenshots/history.png" width="49%" alt="History of solved problems" />
+<img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/screenshots/settings.png" width="49%" alt="Settings: provider, model and prices" />
+</div>
 
-The interface comes in English, Spanish, Italian, French, German and Russian, and the coach can answer in any of them, independently of the interface. Both default to your browser's language.
+## 🎛️ Make it yours
 
-### Your coach, your way
+- 🤖 **Any model:** Claude Opus, Sonnet or the budget-friendly Haiku; any OpenAI model; or hundreds of OpenRouter models listed from the cheapest, with prices shown.
+- 🧩 **Reasoning depth:** low for quick and cheap, high for thorough.
+- 🌍 **Six languages:** English, Español, Italiano, Français, Deutsch, Русский, for the interface and, separately, for the coach's answers.
+- ✍️ **Your own coach prompt**, in any language, with a one-click way back to the default.
+- 🌗 **Light and dark** themes that follow LeetCode.
 
-- Choose the provider and the model in **Settings**: Claude (Opus, Sonnet or the low-cost Haiku), any OpenAI model, or any of the hundreds of models on OpenRouter, listed from the cheapest. Prices per million tokens are shown next to the models.
-- Set the reasoning depth: low is faster and cheaper, high is more thorough.
-- Rewrite the coach's prompt in any language, or go back to the default with one click.
+<div align="center">
+<img src="https://raw.githubusercontent.com/ByMarsel/coach-for-leetcode/main/docs/screenshots/panel-dark.png" alt="The coach panel in LeetCode's dark theme" />
+</div>
 
-### Fair play
+## 🔒 Private by design
 
-The coach is switched off on contest pages (`leetcode.com/contest/…`): LeetCode's contest rules forbid AI help. Use Coach for LeetCode for learning and practice only; see the [terms of use](TERMS.md).
+- 🗝️ Your API keys stay in the browser, in storage that web pages, including LeetCode itself, cannot read.
+- 🙈 A saved key is never shown again, only its last four characters. Remove it any time.
+- 📮 Your problem, code and messages go only to the AI provider you picked, and only when you ask.
+- 🚫 No servers of ours, no accounts, no analytics, no tracking.
 
-## Privacy and security
+Read the full [privacy policy](https://github.com/ByMarsel/coach-for-leetcode/blob/main/PRIVACY.md).
 
-- Your API keys stay in your browser's extension storage. That storage is closed to everything except the extension's own pages: the LeetCode page and the scripts the extension runs on it cannot read the keys.
-- A saved key is never shown again; the settings show only its last four characters. You can remove a key at any time.
-- The problem, your code and your messages go only to the AI provider you chose, and only when you ask the coach something or use hot-cold. There is no server of ours in between, and no analytics or tracking.
-- Your chats, timers and history stay in your browser.
+## 🏆 Fair play
 
-Details: [privacy policy](PRIVACY.md).
+The coach switches itself off on LeetCode contest pages: contest rules forbid AI help. It is a tool for learning and practice, so please keep it out of contests, interviews and assessments. See the [terms of use](https://github.com/ByMarsel/coach-for-leetcode/blob/main/TERMS.md).
 
-## What it costs
+## 💸 What it costs
 
-Coach for LeetCode is free. You pay your AI provider directly for what you use, with your own key. As a rough guide, half an hour on a problem with a few hints and hot-cold on costs around $0.20 on Claude Sonnet and around $0.40 on Claude Opus; Claude Haiku and the cheaper OpenRouter models cost a fraction of that. A hot-cold check costs a fraction of a cent.
+The extension is free. You pay your AI provider directly for what you use. Rough guide: half an hour on a problem with a few hints and hot-cold costs about **$0.20 on Claude Sonnet** and **$0.40 on Claude Opus**, and a fraction of that on Claude Haiku or cheaper OpenRouter models.
 
-## Install
+## 🚀 Get it
 
-Coach for LeetCode is coming to the Chrome Web Store.
+Coming soon to the **Chrome Web Store**. Install it, open any problem on leetcode.com, paste your API key in **Settings**, and start solving.
 
-Once installed, open any problem on leetcode.com, then paste your API key from Anthropic, OpenAI or OpenRouter in **Settings** in the panel.
+## 🙋 Help
 
-## Support
+Questions, ideas or bugs: [open an issue](https://github.com/ByMarsel/coach-for-leetcode/issues) or write to [help@marsel.engineer](mailto:help@marsel.engineer).
 
-Write to [help@marsel.engineer](mailto:help@marsel.engineer) or open an issue on [GitHub](https://github.com/ByMarsel/coach-for-leetcode/issues).
+---
 
-## Legal
-
-- [Terms of use](TERMS.md)
-- [Privacy policy](PRIVACY.md)
-
-LeetCode is a trademark of its owner. Claude is a trademark of Anthropic. OpenAI and OpenRouter are trademarks of their owners.
+<sub>LeetCode is a trademark of its owner. Claude is a trademark of Anthropic. OpenAI and OpenRouter are trademarks of their owners. · [Terms of use](https://github.com/ByMarsel/coach-for-leetcode/blob/main/TERMS.md) · [Privacy policy](https://github.com/ByMarsel/coach-for-leetcode/blob/main/PRIVACY.md)</sub>
