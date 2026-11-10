@@ -16,6 +16,8 @@ The extension reads the problem statement and your Run and Submit results from l
 
 To show which models you can pick, the settings may load the public model catalogue from OpenRouter and, if you saved an OpenAI key, the list of models available to your OpenAI account. These requests contain no problem or code.
 
+Requests to OpenRouter also name the extension (its title and GitHub address), so OpenRouter can count its usage in its public app rankings. These headers carry nothing about you.
+
 ## What we do not do
 
 - We do not run servers that receive your data. There is no account, no analytics, no tracking, no advertising.
