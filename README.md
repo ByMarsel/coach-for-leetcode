@@ -45,13 +45,13 @@ Click the thermometer under the timer and a bar shows, while you code, how close
 
 ## 💬 Talk it through
 
-Type your idea into the chat. The coach tells you honestly whether it works, and if it does not, shows the shortest input it breaks on, without telling you what would work instead. Want a hint or the solution? Just ask for it. Code in answers comes with a **Copy** button.
+Type your idea or guess into the chat. If it works, the coach says so. If it does not, it asks you a guiding question, such as why you think so or what your idea gives on a small input, so you spot the flaw yourself; it never tells you what would work instead. Want a hint or the solution? Just ask for it. Code in answers comes with a **Copy** button.
 
 The coach is friendly, short and to the point, and it sees your latest code, the timer and your last Run or Submit result with every message.
 
 ## ⏱️ Timer and 📈 history
 
-- The timer starts when **you start writing code**, not when you open the problem, and runs only while the problem is on screen.
+- The timer starts when **you start writing code** or press ▶, not when you open the problem, and runs only while the problem is on screen.
 - Limits per difficulty (15 / 30 / 45 minutes by default, all adjustable). Yellow when time is short, red with the overtime after the limit.
 - Pause, resume, or reset the timer together with the chat.
 - Every problem you get Accepted lands in **History**: time against the limit, hints taken, submissions, whether you peeked at the solution, and what the AI requests for it cost. The total spent is at the top.
@@ -63,7 +63,7 @@ The coach is friendly, short and to the point, and it sees your latest code, the
 
 ## 🎛️ Make it yours
 
-- 🤖 **Any model:** Claude Opus, Sonnet or the budget-friendly Haiku; any OpenAI model; or hundreds of OpenRouter models listed from the cheapest, with prices shown.
+- 🤖 **Any model:** Claude Opus, Sonnet or the budget-friendly Haiku; any OpenAI model; or hundreds of OpenRouter models you can search by name, cheapest first, with prices shown.
 - 🧩 **Reasoning depth:** low for quick and cheap, high for thorough.
 - 🌍 **Six languages:** English, Español, Italiano, Français, Deutsch, Русский, for the interface and, separately, for the coach's answers.
 - ✍️ **Your own coach prompt**, in any language, with a one-click way back to the default.
