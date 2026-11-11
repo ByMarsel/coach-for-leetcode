@@ -19,7 +19,7 @@ Solve the problem yourself, with a coach that nudges instead of spoiling.
 
 AI Coach for LeetCode puts a panel next to every problem: a timer, a ladder of hints, code review, a failing-test finder and a live **hot-cold** progress bar. It is built to make you think, not to hand you the answer.
 
-It runs on the AI model you choose: **Claude**, **OpenAI** or any model on **OpenRouter**, with your own API key.
+It runs on the AI model you choose: **Claude**, **OpenAI** or any model on **OpenRouter** with your own API key, or a free model on your own computer through **Ollama** or **LM Studio**.
 
 > AI Coach for LeetCode is an independent project, not affiliated with LeetCode.
 
@@ -64,6 +64,7 @@ The coach is friendly, short and to the point, and it sees your latest code, the
 ## 🎛️ Make it yours
 
 - 🤖 **Any model:** Claude Opus, Sonnet or the budget-friendly Haiku; any OpenAI model; or hundreds of OpenRouter models you can search by name, cheapest first, with prices shown.
+- 🖥️ **Or a local one:** pick **Local model** and the panel talks to Ollama or LM Studio on your computer. It is free and nothing leaves your machine; Ollama only needs the extension's address added to `OLLAMA_ORIGINS`, as Settings shows.
 - 🧩 **Reasoning depth:** low for quick and cheap, high for thorough.
 - 🌍 **Six languages:** English, Español, Italiano, Français, Deutsch, Русский, for the interface and, separately, for the coach's answers.
 - ✍️ **Your own coach prompt**, in any language, with a one-click way back to the default.
@@ -77,7 +78,7 @@ The coach is friendly, short and to the point, and it sees your latest code, the
 
 - 🗝️ Your API keys stay in the browser, in storage that web pages, including LeetCode itself, cannot read.
 - 🙈 A saved key is never shown again, only its last four characters. Remove it any time.
-- 📮 Your problem, code and messages go only to the AI provider you picked, and only when you ask.
+- 📮 Your problem, code and messages go only to the AI provider you picked, and only when you ask. With a local model they never leave your computer.
 - 🚫 No servers of ours, no accounts, no analytics, no tracking.
 
 Read the full [privacy policy](https://github.com/ByMarsel/coach-for-leetcode/blob/main/PRIVACY.md).

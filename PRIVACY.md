@@ -1,6 +1,6 @@
 # Privacy policy
 
-Effective: 8 November 2026
+Effective: 11 November 2026
 
 AI Coach for LeetCode is a browser extension that helps you practise LeetCode problems with an AI model you choose. This policy explains what data the extension handles, where it goes, and how to delete it. In short: everything stays in your browser, except what you send to the AI provider you picked, and we run no servers that could receive your data.
 
@@ -9,12 +9,14 @@ AI Coach for LeetCode is a browser extension that helps you practise LeetCode pr
 | Data | Where it is kept | Where it is sent |
 |---|---|---|
 | Your API keys for Anthropic, OpenAI or OpenRouter | Your browser's extension storage, on your device | Only to the provider the key belongs to, with each request to that provider |
-| Problem statement, your code and language, the timer, your latest Run or Submit result, your messages to the coach | Your browser's extension storage | To the AI provider you chose, only when you ask the coach something or use hot-cold |
+| Problem statement, your code and language, the timer, your latest Run or Submit result, your messages to the coach | Your browser's extension storage | To the AI provider you chose, only when you ask the coach something or use hot-cold. A local model gets them on your computer only, and the problem statement in advance, so the model is ready when you ask |
 | Settings, timers, chats, solved-problem history, what your AI requests cost | Your browser's extension storage | Nowhere |
 
 The extension reads the problem statement and your Run and Submit results from leetcode.com while you use the site, through your own LeetCode session. It does not send them anywhere except to your chosen AI provider as described above.
 
 To show which models you can pick, the settings may load the public model catalogue from OpenRouter and, if you saved an OpenAI key, the list of models available to your OpenAI account. These requests contain no problem or code.
+
+If you choose a local model, the requests go only to the model server on your own computer (localhost or 127.0.0.1) at the address you set, so the problem, your code and the chat never leave it.
 
 Requests to OpenRouter also name the extension (its title and GitHub address), so OpenRouter can count its usage in its public app rankings. These headers carry nothing about you.
 
