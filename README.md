@@ -91,6 +91,8 @@ The coach switches itself off on LeetCode contest pages: contest rules forbid AI
 
 Coming soon to the **Chrome Web Store**. Install it, open any problem on leetcode.com, paste your API key in **Settings**, and start solving.
 
+Built and tested in Google Chrome. It should also work in other Chromium-based browsers, such as Microsoft Edge, Brave, Opera and Arc, which install extensions from the Chrome Web Store.
+
 ## 🙋 Help
 
 Questions, ideas or bugs: [open an issue](https://github.com/ByMarsel/coach-for-leetcode/issues) or write to [help@marsel.engineer](mailto:help@marsel.engineer).
